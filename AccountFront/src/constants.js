@@ -1,0 +1,5 @@
+export const BaseURL = "http://localhost:8081"
+export const Homepage = "http://localhost:3000"
+export const PathToCreateAccount = "/accounts/createAccount"
+export const LinkAdminPage = "/LinkAdminPage"
+export const LinkQuestionSheet = "/QuestionSheet"
