@@ -4,54 +4,54 @@ public class SentAccount {
 
     private Long accountId;
 
-    private String firstName;
+    private String username;
 
-    private String lastName;
+    private String password;
 
-    private String accountNumber;
+    private String fullName;
 
 
     public SentAccount() {
     }
 
-    public SentAccount(Long accountId, String firstName, String lastName, String accountNumber) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.accountNumber = accountNumber;
+    public SentAccount(Long accountId, String username, String password, String fullName) {
+        this.username = username;
+        this.password = password;
+        this.fullName = fullName;
         this.accountId = accountId;
 
     }
 
-    public Long getId() {
-        return accountId;
-    }
+	public Long getAccountId() {
+		return accountId;
+	}
 
-    public void setId(Long id) {
-        this.accountId = id;
-    }
+	public void setAccountId(Long accountId) {
+		this.accountId = accountId;
+	}
 
-    public String getFirstName() {
-        return firstName;
-    }
+	public String getUsername() {
+		return username;
+	}
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+	public void setUsername(String username) {
+		this.username = username;
+	}
 
-    public String getLastName() {
-        return lastName;
-    }
+	public String getPassword() {
+		return password;
+	}
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
-    public String getAccountNumber() {
-        return accountNumber;
-    }
+	public String getFullName() {
+		return fullName;
+	}
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
-    }
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
 
 }

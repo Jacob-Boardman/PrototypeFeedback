@@ -61,7 +61,7 @@ public class AccountRest {
     @PostMapping("${path.createAccount}")
     public Account createAccount(@RequestBody Account account) {
         System.out.println("tweruweruweioruweiruioeurioufioasudioasudiouwiduaioduaiosduiouiou");
-    	account = setAccountNumberAndPrize(account);
+    	//account = setAccountNumberAndPrize(account);
         sendToQueue(account);
     	return service.addAccount(account);
     }
